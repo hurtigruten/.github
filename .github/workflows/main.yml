@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - '**'
+    
+jobs:
+  package_delete:
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: smartsquaregmbh/delete-old-packages@v0.4.0
+      with:
+        names: |
+          Hur.Polar.Azure.ServiceBus.Akka
