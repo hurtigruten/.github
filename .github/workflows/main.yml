@@ -11,6 +11,7 @@ jobs:
       with:
         organization : hurtigruten
         keep: 1
+        version: 3.5.0-beta-publish-pac0034
         names: |
           Hur.Polar.Azure.ServiceBus.Akka
           Hur.Polar.AkkaExtensions
