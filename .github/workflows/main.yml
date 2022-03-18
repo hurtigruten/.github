@@ -9,7 +9,6 @@ jobs:
     steps: 
     - uses: smartsquaregmbh/delete-old-packages@v0.4.0
       with:
-        organization : hurtigruten
         version-pattern: "^\\d+\\.\\d+\\.\\d+-beta"
         names: |
           Hur.Polar.Azure.ServiceBus.Akka
